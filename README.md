@@ -44,9 +44,9 @@ The AVR128DA48 Curiosity Nano Development Board is used as the test platform. To
 
 1. Connect the board to the PC.
 
-2. Open the *avr128da48-cnano-adc-event-triggered.X* project in MPLAB® X IDE.
+2. Open the *avr128da48-cnano-adc-event-triggered-mplab.X* project in MPLAB® X IDE.
 
-3. Set *avr128da48-cnano-adc-event-triggered.X* project as main project. Right click on the project in the *Projects* tab and click *Set as Main Project*:
+3. Set *avr128da48-cnano-adc-event-triggered-mplab.X* project as main project. Right click on the project in the *Projects* tab and click *Set as Main Project*:
 
 <br><img src="images/0_0.png" width="400">
 
