@@ -3,10 +3,10 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-adc-event-triggered",
+        "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-adc-event-triggered-mplab",
         "version": "1.0.0",
         "displayName": "ADC Event Triggered Conversion",
-        "projectName": "avr128da48-cnano-adc-event-triggered",
+        "projectName": "avr128da48-cnano-adc-event-triggered-mplab",
         "shortDescription": "This application showcases the event triggering conversion feature of the ADC.",
         "ide": {
             "name": "MPLABX",
