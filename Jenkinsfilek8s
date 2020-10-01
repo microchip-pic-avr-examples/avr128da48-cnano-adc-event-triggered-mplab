@@ -3,7 +3,7 @@
 pipeline {
     agent {
         kubernetes {
-            label 'avr128da48-cnano-adc-event-triggered'
+            label 'avr128da48-cnano-adc-event-triggered-mplab'
 			defaultContainer 'xc8-mplabx'
             yamlFile 'cloudprovider.yml'
         }
@@ -17,8 +17,8 @@ pipeline {
 	
 	environment {
 		GITHUB_OWNER = 'microchip-pic-avr-examples'	
-		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/avr128da48-cnano-adc-event-triggered.git'
-		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebe/avr128da48-cnano-adc-event-triggered.git'
+		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/avr128da48-cnano-adc-event-triggered-mplab.git'
+		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebe/avr128da48-cnano-adc-event-triggered-mplab.git'
 		DEPLOY_TOOL_URL = 'https://bitbucket.microchip.com/scm/citd/tool-github-deploy.git'
 		DEPLOY_SCRIPT_DIR = 'tool-github-deploy'
 		DEPLOY_SCRIPT_FILE = 'deploy-source-as-is.sh'
