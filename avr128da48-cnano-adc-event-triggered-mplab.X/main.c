@@ -55,8 +55,8 @@ void EVSYS_init(void);
 /* This function initializes the CLKCTRL module */
 void CLKCTRL_init(void)
 {
-    /* FREQSEL 4M */
-    ccp_write_io((void*)&(CLKCTRL.OSCHFCTRLA), (CLKCTRL.OSCHFCTRLA | CLKCTRL_FREQSEL_4M_gc));
+    /* FRQSEL 4M */
+    ccp_write_io((void*)&(CLKCTRL.OSCHFCTRLA), (CLKCTRL.OSCHFCTRLA | CLKCTRL_FRQSEL_4M_gc));
 }
 
 /* This function initializes the PORT module */
