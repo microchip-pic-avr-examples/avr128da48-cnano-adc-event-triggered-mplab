@@ -93,10 +93,10 @@ This chapter shows how to use the MPLAB X IDE to program an AVR® device with an
 <br><img src="images/dv_1.png" width="600">
 
 2. In the Curiosity Nano COMn tab, click the **Source options** button and set the Baud Rate:
-<br><img src="images/dv_2.png" width="600">>
+<br><img src="images/dv_2.PNG" width="600">
 
 3. From the same tab, select **New variable streamer**:
-<br><img src="images/dv_3.png" width="600">>
+<br><img src="images/dv_3.PNG" width="600">
 
 4. Configure the Variable Streamer Name and add the desired variable, then click **Next**:
 <br><img src="images/dv_4.PNG" width="600">
