@@ -1,6 +1,6 @@
  <a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300"/></a>
 
-# Analog-to-Digital Converter (ADC) - Event Triggered Conversion Using the AVR128DA48 Microcontroller
+# Analog-to-Digital Converter (ADC) — Event Triggered Conversion Using the AVR128DA48 Microcontroller
 
 In this application, the ADC conversion is periodically triggered. An LED toggles each time a conversion is triggered. The result will be transmitted through USART and it can be plotted using the Data Visualizer.
 The software diagram of this application is presented in the figure below.<br>
@@ -108,7 +108,7 @@ This chapter shows how to use the MPLAB X IDE to program an AVR® device with an
 
 <br>
 
-- [Back to Top](#avr128da48-led-blink-using-a-pwm-signal-code-example)
+- [Back to Top](#analog-to-digital-converter-adc--event-triggered-conversion-using-the-avr128da48-microcontroller)
 - [Back to Setup](#setup)
 - [Back to Demo](#demo)
 - [Back to Summary](#summary)
